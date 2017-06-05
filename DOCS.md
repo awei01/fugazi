@@ -266,7 +266,7 @@ abs(-15) // returns 15
 
 Signum - 5-way `if ... then ... elseif ... then`
 ```js
-const abs = F.ifElse(
+const sgn = F.ifElse(
   F.gt(0),  // pattern #1
   1,        // trueValue #1 - does not have to be a function
 
